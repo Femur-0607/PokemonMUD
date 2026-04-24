@@ -7,15 +7,14 @@ class Monster
 {
 protected:
     string name;
-    int hp, baseHp, maxHp;
+    int hp, maxHp;
     int attackPower;
     int defense;
     int speed;
-    int level;
+    int level = 1;
 public:
-    Monster(const string& name, int hp, int maxHP, int attackPower, int defense, int speed, int level);
+    Monster(const string& name, int hp, int attackPower, int defense, int speed, int level);
     virtual ~Monster();
-    
     string getName() const;
     virtual void Attack(Monster* target);
     void TakeDamage(int damage);
