@@ -131,7 +131,25 @@
     </Link>
   </ItemDefinitionGroup>
 
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BattleManager.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EvolvedPokemon.h" />
+    <ClInclude Include="GameMamager.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Pokemon.h" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="BattleManager.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EvolvedPokemon.cpp" />
+    <ClCompile Include="GameMamager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Pokemon.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
